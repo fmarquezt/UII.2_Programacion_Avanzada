@@ -18,7 +18,7 @@ import tkinter as tk
 import serial ,time
 
 #Profesor Porfavor ingrese aqui el COM a utilizar
-Puerto = 'COM7'
+Puerto = 'COM9'
 
 
 
@@ -54,7 +54,7 @@ def animar(i,xs,ys):
     ax.clear()
     ax.plot(xs,ys)
 
-ani = animation.FuncAnimation(fig,animar, fargs=(xs,ys), interval = 500)
+ani = animation.FuncAnimation(fig,animar, fargs=(xs,ys), interval = 50)
 
 
 

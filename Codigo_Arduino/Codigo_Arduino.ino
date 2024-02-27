@@ -34,7 +34,7 @@ void loop() {
     int Lectura_Serial = analogRead(Pin_Entrada_Analogica);
   float Lectura_Serial_float = (5.0/1023)*Lectura_Serial;
   Serial.println(Lectura_Serial_float);
-  delay(500);
+  delay(200);
 
   if (Serial.available()>0)
   {
